@@ -25,7 +25,11 @@ form.username.addEventListener("keyup", e => {
 		username.innerHTML = `<i>Please write something</i>`
 	}
 })
-
+////////////////////////
+form.password.addEventListener("mouseover", e =>{
+	alert("Your password for example: (Aa123@)")
+})
+//////////////////////
 form.password.addEventListener("keyup", e => {
 	if (e.target.value) {
 		password.textContent = "*".repeat(e.target.value.length)
