@@ -26,9 +26,9 @@ form.username.addEventListener("keyup", e => {
 	}
 })
 ////////////////////////
-form.password.addEventListener("mouseover", e =>{
-	alert("Your password for example: (Aa123@)")
-})
+// form.password.addEventListener("mouseover", e =>{
+// 	alert("Your password for example: (Aa123@)") 
+// })
 //////////////////////
 form.password.addEventListener("keyup", e => {
 	if (e.target.value) {
